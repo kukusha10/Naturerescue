@@ -1,0 +1,220 @@
+@media (max-width: 768px) {
+    header .logo {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .hero {
+        padding: 30px 0;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+
+    footer .social a {
+        margin: 0 5px;
+    }
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 45%;
+    display: inline-block;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+   
+}
+
+.day {
+    color: green;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nat {
+    width: 100px;
+    margin-top: -80px;
+}
+
+.TBC {
+    position: relative;
+    width: 100px;
+    margin-top: -80px;
+    left: 90%;
+}
+
+.sky {
+    margin-top: -480px;
+}
+
+.hero {
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 500px 0px;
+}
+
+footer {
+    margin-top: 7%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #4CAF50;
+}
+
+.kids {
+  font-size: x-large;
+    margin-left: -280px;
+    margin-top: 60px;
+}
+
+.nation {
+    position: relative;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: -940px;
+}
+
+.play {
+    width: 1000px;
+    position: relative;
+    left: 580px;
+    top: -650px;
+}
+
+
+.wwf {
+position: absolute;
+    width: 1000px;
+   right: 1000px;
+   top: 1200px;
+}
+
+.void {
+    position: relative;
+    font-size: x-large;
+    top: 270px;
+    left: -400px;
+}
+
+.wff {
+    position: relative;
+    width: 1000px;
+    top: -319px;
+    left: 500px;
+}
+
+.wfw {
+    color: green;
+}
+
+.cons {
+    position: relative;
+    width: 1000px;
+    left: 70px;
+    top: -350px;
+}
+
+.consp {
+   
+        position: relative;
+        width: 1000px;
+        left: 70px;
+        top: -350px;
+    
+}
+
+
+.D {
+    position: relative;
+    font-size: x-large;
+    top: -200px;
+    left: 89px;
+}
+
+
+.conserv {
+    color:green ;
+}
+
+.sun {
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.tree {
+    position: relative;
+    width: 500px;
+   left: 38%;
+}
