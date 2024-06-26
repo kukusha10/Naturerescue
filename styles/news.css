@@ -17,6 +17,13 @@ header .logo {
     display: inline-block;
 }
 
+.TBC {
+    position: relative;
+    width: 100px;
+    margin-top: -90px;
+    left: 88%;
+}
+
 .dark {
 
     color: black;
@@ -59,11 +66,12 @@ nav ul li a {
 }
 
 footer {
-    margin-top: 30%;
+    margin-top: -250px;
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px 0px;
+   
 }
 
 footer .social a {
@@ -74,4 +82,65 @@ footer .social a {
 
 footer .social a:hover {
     color: #4CAF50;
+}
+
+.eco {
+    position: relative;
+    top: -150px;
+    left: 50px;
+}
+
+.eco1 {
+    position: relative;
+    width: 900px;
+    height: 580px;
+    top: -150px;
+    left: 70px;
+}
+
+.ecology {
+    position: relative;
+    top: -100px;
+    font-size: x-large;
+    width: 1055px;
+   left: 50px;
+   color:black;
+}
+
+.det {
+    display: inline-block;
+   position: relative;
+    font-size: x-large;
+    top: -530px;
+    left: 50px;
+    color: black;
+}
+
+.det:hover {
+    color: #4CAF50;
+}
+
+.rec {
+position: relative;
+left: 1000px;
+top:-200px;
+width: 600px;
+}
+
+.ecofriendly {
+    position: relative;
+font-size: xx-large;
+top: -450px;
+left: 50px;
+}
+
+.eccco {
+position: relative;
+top: -515px;
+left: 630px;
+font-size: x-large;
+}
+
+.grin {
+    color: darkgreen;
 }

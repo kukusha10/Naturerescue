@@ -17,6 +17,13 @@ header .logo {
     display: inline-block;
 }
 
+.TBC {
+    position: relative;
+    width: 100px;
+    margin-top: -90px;
+    left: 88%;
+}
+
 .dark {
 
     color: black;
@@ -59,7 +66,7 @@ nav ul li a {
 }
 
 footer {
-    margin-top: 30%;
+    margin-top: -100px;
     background-color: #333;
     color: white;
     text-align: center;
@@ -75,3 +82,307 @@ footer .social a {
 footer .social a:hover {
     color: #4CAF50;
 }
+
+
+
+
+.CON {
+    /* Contact */
+
+position: absolute;
+width: 64px;
+height: 20px;
+left: 144px;
+top: 57px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+
+color: #5863E3;
+
+
+}
+
+.day {
+    /* Contact us to get free support */
+
+position: absolute;
+width: 371px;
+height: 112px;
+left: 144px;
+top: 84px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 49px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+
+.box {
+    /* Rectangle 2 */
+
+
+position: absolute;
+width: 370px;
+height: 59px;
+left: 920px;
+top: 253px;
+
+background: #F8F8F8;
+/* Subject */
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+color: #99999A;
+
+
+}
+
+.container {
+    /* Rectangle 3 */
+
+position: absolute;
+width: 370px;
+height: 59px;
+left: 920px;
+top: 332px;
+
+background: #F8F8F8;
+/* Name / Surname */
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+color: #99999A;
+
+
+}
+
+.create {
+    /* Rectangle 4 */
+
+position: absolute;
+width: 370px;
+height: 59px;
+left: 920px;
+top: 411px;
+
+background: #F8F8F8;
+/* Email */
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+color: #99999A;
+
+
+}
+
+.des {
+/* Rectangle 1 */
+
+position: absolute;
+width: 756px;
+height: 298px;
+left: 144px;
+top: 253px;
+
+background: #F8F8F8;
+/* Description */
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+color: #99999A;
+
+
+}
+
+.ci {
+    /* Ellipse 1 */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: 288px;
+top: 602px;
+
+
+
+}
+
+.mail {
+    /* Frame */
+
+position: absolute;
+width: 41px;
+height: 29px;
+left: 302px;
+top: 621px;
+}
+
+.clue {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clue > div {
+position: relative;
+margin-left: 280px;
+top: 686px;
+}
+
+
+.blue {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blue > div {
+
+/* Email */
+
+position: relative;
+margin-left: 288px;
+top: 686px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+color: #4E4D54;
+}
+
+
+
+.contact {
+   position: relative;
+   margin-left: 293px;
+   margin-top: 612px;
+   color: #4E4D54;
+}
+
+.custom {
+    position: relative;
+margin-left: 637px;
+margin-top: -38px;
+}
+
+.Frame {
+    position: relative;
+    margin-left: 997px;
+    margin-top: -42px;
+}
+
+.gmail {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gmail > div {
+
+position: relative;
+margin-left: 220px;
+top: 40px;
+
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 17px;
+
+color: #99999A;
+
+}
+
+
+
+.rain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rain > div {
+
+position: relative;
+margin-left: 200px;
+top: 40px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 17px;
+
+color: #99999A;
+}
+
+
+
+main {
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+section {
+   display: block;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.map {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    top: -300px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.prot {
+    position: relative;
+    width: 1000px;
+    left: 800px;
+    top: -500px;
+}
+

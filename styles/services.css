@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 45%;
+    display: inline-block;
+}
+
+.TBC {
+    position: relative;
+    width: 100px;
+    margin-top: -90px;
+    left: 88%;
+}
+
+.dark {
+
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nat {
+    width: 100px;
+    margin-top: -80px;
+}
+
+.hero {
+    background-image: url('nature.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+footer {
+    margin-top: 30%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #4CAF50;
+}
+
+
+
+

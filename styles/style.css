@@ -50,12 +50,12 @@ header {
 }
 
 header .logo {
+    font-family: "ALK Life", sans-serif;
     font-size: 24px;
     font-weight: bold;
     margin-left: 45%;
     display: inline-block;
 }
-
 
 
 nav ul {
@@ -104,6 +104,7 @@ nav ul li a {
 
 .sky {
     margin-top: -480px;
+    font-size: x-large;
 }
 
 .hero {
@@ -131,6 +132,7 @@ footer .social a:hover {
     color: #4CAF50;
 }
 
+
 .kids {
   font-size: x-large;
     margin-left: -280px;
@@ -148,7 +150,7 @@ footer .social a:hover {
     width: 1000px;
     position: relative;
     left: 580px;
-    top: -650px;
+    top: -620px;
 }
 
 
@@ -162,15 +164,15 @@ position: absolute;
 .void {
     position: relative;
     font-size: x-large;
-    top: 270px;
+    top: 400px;
     left: -400px;
 }
 
 .wff {
     position: relative;
     width: 1000px;
-    top: -319px;
-    left: 500px;
+    top: -188px;
+    left: 550px;
 }
 
 .wfw {
