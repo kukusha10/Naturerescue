@@ -6,6 +6,7 @@
 */
 
 body {
+    overflow-x: hidden;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -115,7 +116,7 @@ color: #5863E3;
 }
 
 .day {
-    /* Contact us to get free support */
+    /* Contact us to getfree support */
 
 position: absolute;
 width: 371px;

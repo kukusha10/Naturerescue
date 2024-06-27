@@ -4,6 +4,7 @@
 /* Browsers: last 4 version */
 
 body {
+    overflow-x: hidden;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
