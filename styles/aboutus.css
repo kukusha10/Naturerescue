@@ -172,7 +172,7 @@ nav.na a:hover {
     left: 25%;
 }
 
-/* Specific Styles for .nat, .TBC, and .tree */
+
 .nat {
     width: 100px;
     margin-top: -80px;
@@ -189,12 +189,11 @@ nav.na a:hover {
 .tree {
     position: relative;
     width: 500px;
-    left: 38%;
+    margin-left: 54%;
 }
 
-/* Responsive Design */
 @media (max-width: 1200px) {
-    .TBC, .nat, .tree, .nat2 {
+    .TBC, .nat,  .nat2 {
         left: auto;
         margin: 0 auto;
         display: block;
@@ -217,7 +216,7 @@ nav.na a:hover {
     }
 
     .tree {
-        left: 35%;
+        left: 40%;
     }
 
     .nat2 {
@@ -327,3 +326,4 @@ nav.na a:hover {
         text-align: center;
     }
 }
+
