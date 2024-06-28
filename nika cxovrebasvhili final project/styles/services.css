@@ -1,0 +1,209 @@
+/* Prefixed by https://autoprefixer.github.io */
+/* PostCSS: v8.4.14, */
+/* Autoprefixer: v10.4.7 */
+/* Browsers: last 4 version */
+
+body {
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-height: 100vh; /* Set maximum height to 100% of viewport height */
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds the height */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 45%;
+    display: inline-block;
+}
+
+.TBC {
+    position: relative;
+    width: 100px;
+    margin-top: -90px;
+    left: 88%;
+}
+
+.dark {
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nat {
+    width: 100px;
+    margin-top: -80px;
+}
+
+.hero {
+    background-image: url('nature.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+footer {
+    margin-top: 10%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #4CAF50;
+}
+
+.item, .item1, .item3, .item4 {
+    position: relative;
+    left: 50px;
+    margin-bottom: 20px;
+}
+
+.buy, .buy1, .buy2, .buy4 {
+    position: relative;
+    left: -250px;
+    width: 100px;
+    top: 60px;
+}
+
+.m {
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    font-size: xx-large;
+    color: black;
+    left: -87%;
+}
+
+.m:hover {
+    color: darkred;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .logo {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .TBC {
+        left: 80%;
+        margin-top: -70px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .item, .item1, .item3, .item4, 
+    .buy, .buy1, .buy2, .buy4 {
+        left: 0;
+        top: 0;
+        width: auto;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .m {
+        left: 0;
+        top: 50px;
+        text-align: center;
+        font-size: large;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .TBC {
+        left: 70%;
+        margin-top: -50px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 30px 0;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+
+    footer .social a {
+        margin: 0 5px;
+    }
+
+    .item, .item1, .item3, .item4, 
+    .buy, .buy1, .buy2, .buy4 {
+        left: 0;
+        top: 0;
+        width: auto;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .m {
+        left: 0;
+        top: 30px;
+        text-align: center;
+        font-size: medium;
+    }
+}

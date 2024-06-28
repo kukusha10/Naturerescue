@@ -1,0 +1,237 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-height: 100vh; /* Limit body's height to 100% of viewport height */
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds the height */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 45%;
+    display: inline-block;
+}
+
+.TBC {
+    position: relative;
+    width: 100px;
+    margin-top: -90px;
+    left: 88%;
+}
+
+.dark {
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nat {
+    width: 100px;
+    margin-top: -80px;
+}
+
+.hero {
+    background-image: url('nature.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+footer {
+    margin-top: -250px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #4CAF50;
+}
+
+.eco {
+    position: relative;
+    top: -150px;
+    left: 50px;
+}
+
+.eco1 {
+    position: relative;
+    width: 900px;
+    height: 580px;
+    top: -150px;
+    left: 70px;
+}
+
+.ecology {
+    position: relative;
+    top: -100px;
+    font-size: x-large;
+    width: 1055px;
+    left: 50px;
+    color: black;
+}
+
+.det {
+    display: inline-block;
+    position: relative;
+    font-size: x-large;
+    top: -530px;
+    left: 50px;
+    color: black;
+}
+
+.det:hover {
+    color: #4CAF50;
+}
+
+.rec {
+    position: relative;
+    left: 1000px;
+    top: -200px;
+    width: 600px;
+}
+
+.ecofriendly {
+    position: relative;
+    font-size: xx-large;
+    top: -450px;
+    left: 50px;
+}
+
+.eccco {
+    position: relative;
+    top: -515px;
+    left: 630px;
+    font-size: x-large;
+}
+
+.grin {
+    color: darkgreen;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .logo {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .TBC {
+        left: 80%;
+        margin-top: -70px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .eco1 {
+        width: auto;
+        height: auto;
+        top: 0;
+        left: 0;
+    }
+
+    .det, .eco, .ecofriendly, .eccco {
+        left: 0;
+        top: 0;
+        position: relative;
+        margin: 10px auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .TBC {
+        left: 70%;
+        margin-top: -50px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 30px 0;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+
+    .eco1 {
+        width: auto;
+        height: auto;
+        top: 0;
+        left: 0;
+    }
+
+    .det, .eco, .ecofriendly, .eccco {
+        left: 0;
+        top: 0;
+        position: relative;
+        margin: 10px auto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,212 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-family: "ALK Life", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #4CAF50;
+}
+
+.day, .wfw, .conserv {
+    color: green;
+}
+
+.sky, .kids, .sun, .nation, .play, .wwf, .void, .wff, .cons, .consp, .D, .tree {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sky, .kids, .sun, .void, .D {
+    font-size: x-large;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header .logo {
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+
+    .nation, .play, .wwf, .void, .wff, .cons, .consp, .D, .tree {
+        width: 100%;
+        margin: 0;
+        left: 0;
+        top: 0;
+        position: relative;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .hero {
+        padding: 30px 0;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+
+    footer .social a {
+        margin: 0 5px;
+    }
+
+    .sun, .kids, .sky {
+        font-size: large;
+        margin: 20px 0;
+    }
+
+    .kids {
+        margin-top: 20px;
+    }
+}
+
+/* Specific Styles for .nat and .TBC */
+.nat {
+    width: 100px;
+    margin-top: -80px;
+    margin-left: -1650px;
+}
+
+.TBC {
+    position: relative;
+    width: 100px;
+    margin-top: -80px;
+    left: 88%;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .nat {
+        margin-left: -1000px;
+    }
+
+    .TBC {
+        left: 70%;
+    }
+}
+
+@media (max-width: 992px) {
+    .nat {
+        margin-left: -800px;
+    }
+
+    .TBC {
+        left: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nat {
+        margin-left: -600px;
+    }
+
+    .TBC {
+        left: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .nat {
+        margin-left: -400px;
+    }
+
+    .TBC {
+        left: 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    .nat {
+        margin-left: -200px;
+        width: 80px;
+        margin-top: -40px;
+    }
+
+    .TBC {
+        left: 30%;
+        width: 80px;
+        margin-top: -40px;
+    }
+}
+
+.tree {
+    position: relative;
+    width: 500px;
+    left: 38%;
+}
