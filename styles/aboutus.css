@@ -1,10 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
+/* General Styles */
 body {
     overflow-x: hidden;
     margin: 0;
@@ -28,23 +22,12 @@ header .logo {
     color: black;
 }
 
-.TBC {
-    position: relative;
-    width: 100px;
-    margin-top: -90px;
-    left: 88%;
-}
-
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin-top: 20px;
 }
 
@@ -58,12 +41,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-.nat {
-    width: 100px;
-    margin-top: -80px;
-    margin-left: -90%;
-}
-
 .hero {
     background-image: url('nature.jpg');
     background-size: cover;
@@ -73,11 +50,10 @@ nav ul li a {
 }
 
 footer {
-    margin-top: -20%;
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px 0;
 }
 
 footer .social .aa {
@@ -90,6 +66,7 @@ footer .social a:hover {
     color: #4CAF50;
 }
 
+/* Specific Styles */
 .pi {
     display: inline-block;
     position: relative;
@@ -195,14 +172,56 @@ nav.na a:hover {
     left: 25%;
 }
 
-/* Responsive Design */
+/* Specific Styles for .nat, .TBC, and .tree */
+.nat {
+    width: 100px;
+    margin-top: -80px;
+    margin-left: -90%;
+}
 
+.TBC {
+    position: relative;
+    width: 100px;
+    margin-top: -90px;
+    left: 88%;
+}
+
+.tree {
+    position: relative;
+    width: 500px;
+    left: 38%;
+}
+
+/* Responsive Design */
 @media (max-width: 1200px) {
-    .TBC, .nat2 {
+    .TBC, .nat, .tree, .nat2 {
         left: auto;
         margin: 0 auto;
         display: block;
         float: none;
+    }
+
+    .his, .H, .boxi {
+        width: 90%;
+        left: 5%;
+    }
+}
+
+@media (max-width: 992px) {
+    .TBC {
+        left: 70%;
+    }
+
+    .nat {
+        margin-left: -60%;
+    }
+
+    .tree {
+        left: 35%;
+    }
+
+    .nat2 {
+        left: auto;
     }
 
     .his, .H, .boxi {
@@ -218,9 +237,7 @@ nav.na a:hover {
 
     .pi {
         left: 50%;
-        -webkit-transform: translateX(-50%);
-            -ms-transform: translateX(-50%);
-                transform: translateX(-50%);
+        transform: translateX(-50%);
     }
 
     .his, .H, .boxi {
@@ -233,6 +250,17 @@ nav.na a:hover {
         width: 80px;
         margin-top: -70px;
         left: auto;
+    }
+
+    .nat {
+        width: 80px;
+        margin-top: -70px;
+        margin-left: -40%;
+    }
+
+    .tree {
+        width: 300px;
+        left: 25%;
     }
 
     .naturee, .nat1, .nat2, .nat3 {
@@ -248,16 +276,31 @@ nav.na a:hover {
     }
 }
 
+@media (max-width: 576px) {
+    .TBC, .nat {
+        width: 60px;
+        margin-top: -50px;
+    }
+
+    .tree {
+        width: 250px;
+        left: 20%;
+    }
+
+    .his, .H, .boxi {
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
+
 @media (max-width: 480px) {
     header .logo {
         font-size: 18px;
     }
 
     nav ul {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        flex-direction: column;
     }
 
     nav ul li {
@@ -268,8 +311,19 @@ nav.na a:hover {
         margin-top: 0;
     }
 
-    .TBC {
-        width: 60px;
-        margin-top: -50px;
+    .TBC, .nat {
+        width: 50px;
+        margin-top: -40px;
+    }
+
+    .tree {
+        width: 200px;
+        left: 15%;
+    }
+
+    .his, .H, .boxi {
+        width: 100%;
+        left: 0;
+        text-align: center;
     }
 }

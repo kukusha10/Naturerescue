@@ -1,17 +1,92 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-family: "ALK Life", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #4CAF50;
+}
+
+.day, .wfw, .conserv {
+    color: green;
+}
+
+.sky, .kids, .sun, .nation, .play, .wwf, .void, .wff, .cons, .consp, .D, .tree {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sky, .kids, .sun, .void, .D {
+    font-size: x-large;
+}
+
+/* Media Queries */
 @media (max-width: 768px) {
     header .logo {
         text-align: center;
-        margin-left: 0;
+        margin: 0;
     }
 
     nav ul {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     nav ul li {
@@ -22,15 +97,8 @@
         padding: 50px 0;
     }
 
-    .nation,
-    .play,
-    .wwf,
-    .void,
-    .wff,
-    .cons,
-    .consp,
-    .D,
-    .tree {
+
+    .nation, .play, .wwf, .void, .wff, .cons, .consp, .D, .tree {
         width: 100%;
         margin: 0;
         left: 0;
@@ -58,80 +126,21 @@
         margin: 0 5px;
     }
 
-    .sun {
+    .sun, .kids, .sky {
         font-size: large;
-        margin-left: 0;
-        text-align: center;
+        margin: 20px 0;
     }
 
     .kids {
-        font-size: large;
-        margin-left: 0;
-        margin-top: 20px;
-    }
-
-    .sky {
-        font-size: large;
         margin-top: 20px;
     }
 }
 
-body {
-    overflow-x: hidden;
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px 0px ;
-  
-}
-
-header .logo {
-    font-family: "ALK Life", sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 45%;
-    display: inline-block;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 20px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.day {
-    color: green;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
+/* Specific Styles for .nat and .TBC */
 .nat {
     width: 100px;
     margin-top: -80px;
+    margin-left: -1650px;
 }
 
 .TBC {
@@ -141,111 +150,59 @@ nav ul li a {
     left: 88%;
 }
 
-.sky {
-    margin-top: -480px;
-    font-size: x-large;
+/* Media Queries */
+@media (max-width: 1200px) {
+    .nat {
+        margin-left: -1000px;
+    }
+
+    .TBC {
+        left: 70%;
+    }
 }
 
-.hero {
-    background-size: cover;
-    color: black;
-    text-align: center;
-    padding: 500px 0px;
+@media (max-width: 992px) {
+    .nat {
+        margin-left: -800px;
+    }
+
+    .TBC {
+        left: 60%;
+    }
 }
 
-footer {
-    margin-top: 7%;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0px;
+@media (max-width: 768px) {
+    .nat {
+        margin-left: -600px;
+    }
+
+    .TBC {
+        left: 50%;
+    }
 }
 
-footer .social a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
+@media (max-width: 576px) {
+    .nat {
+        margin-left: -400px;
+    }
+
+    .TBC {
+        left: 40%;
+    }
 }
 
-footer .social a:hover {
-    color: #4CAF50;
-}
+@media (max-width: 480px) {
+    .nat {
+        margin-left: -200px;
+        width: 80px;
+        margin-top: -40px;
+    }
 
-.kids {
-    font-size: x-large;
-    margin-left: -180px;
-    margin-top: 60px;
-}
-
-.nation {
-    position: relative;
-    width: 800px;
-    margin-top: 50px;
-    margin-left: -940px;
-}
-
-.play {
-    width: 800px;
-    position: relative;
-    left: 400px;
-    top: -520px;
-}
-
-.wwf {
-    position: absolute;
-    width: 820px;
-    right:990px;
-    top: 1000px;
-}
-
-.void {
-    position: relative;
-    font-size: x-large;
-    top: 400px;
-    left: -300px;
-}
-
-.wff {
-    position: relative;
-    width: 850px;
-    top: -188px;
-    left: 450px;
-}
-
-.wfw {
-    color: green;
-}
-
-.cons {
-    position: relative;
-    width: 800px;
-    left: 50px;
-    top: -350px;
-}
-
-.consp {
-    position: relative;
-    width: 800px;
-    left: 70px;
-    top: -350px;
-}
-
-.D {
-    position: relative;
-    font-size: x-large;
-    top: -200px;
-    left: 89px;
-}
-
-.conserv {
-    color: green;
-}
-
-.sun {
-    font-size: xx-large;
-    font-style: italic;
-    font-weight: 600;
-    margin-left: 50px;
+    .TBC {
+        left: 30%;
+        width: 80px;
+        margin-top: -40px;
+    }
 }
 
 .tree {
